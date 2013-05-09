@@ -1,5 +1,5 @@
 require 'rspec'
-require './sorted_array.rb'
+require File.expand_path '../sorted_array.rb', File.dirname(__FILE__)
 
 describe SortedArray do
   describe '#bsearch' do
